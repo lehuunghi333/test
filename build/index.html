@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="keywords" content="" />
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="./assets/css/layout.css" rel="stylesheet">
+  <script src="./assets/js/jquery-1.12.4.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+      <!-- ▼header================================================== -->
+      <div class="c-head">
+          <h1 class="c-head__logo">
+              <a href="/"><img src="./assets/img/common/logo.png" alt=""></a>
+          </h1>
+          <div class="c-head__search">
+              <label for="">
+                  <input type="text" name="" placeholder="Search">
+                  <button class="c-head__submit" type="submit"><img src="./assets/img/common/search.png" alt=""></button>
+              </label>
+              <ul class="c-head__trl">
+                  <li><a href=""><img src="./assets/img/common/vn.png" alt=""></a></li>
+                  <li><a href=""><img src="./assets/img/common/en.png" alt=""></a></li>
+                  <li><a href=""><img src="./assets/img/common/fr.png" alt=""></a></li>
+              </ul>
+          </div>
+      </div>
+      
+      <nav class="c_gNavi">
+          <ul>
+              <li><a href="">about us</a></li>
+              <li><a href="">services</a></li>
+              <li><a href="">news & events</a></li>
+              <li><a href="">gallery</a></li>
+              <li><a href="">contact us</a></li>
+              <li><a href="">faqs</a></li>
+          </ul>
+      </nav>
+      <!-- ▲header ================================================== -->      
+      <!-- ▼main ================================================== -->
+      <main id="main">
+
+    <!-- ▼siderTop================================================== -->
+    <div class="bg-img">
+        <div class="my-bg"></div>
+        <div class="my-bg"></div>
+        <div class="my-bg"></div>
+        <div class="my-bg"></div>
+        <div class="c-btn">
+          <button class="c-btn__next" id="btn-Prev"><img src="./assets/img/index/arrow.png" alt=""></button>
+          <button class="c-btn__prev" id="btn-Next"><img src="./assets/img/index/arrow.png" alt=""></button>
+        </div>
+        <div class="c-dot">
+          <p class="c-dot__txt">At Naturetour we are constantly adding to and improving our portfolio of wildlife holidays to provide you with an even greater choice of wildlife viewing <br> experiences we are constantly adding to and improving.
+          </p>
+          <ul class="c-dot__item" id=sliderul>
+            <li><button data-number="0">1</button></li>
+            <li><button data-number="1">2</button></li>
+            <li><button data-number="2">3</button></li>
+            <li><button data-number="3">4</button></li>
+          </ul>
+        </div>
+    </div>
+    <!-- ▲siderTop ================================================== -->
+
+    <!-- ▼home-welcome================================================== -->
+    <section id="home-welcome">
+      <div class="p-welcome">
+        <div>
+          <h2 class="c-title-01">Welcome to our Web Site !</h2>
+          <p class="p-welcome__txt">
+            Lorem Ipsum consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore Lorem ipsum dolor sit amet,
+            conseter sadipscing elitr, sed diam ipsum dolor sit amet, conseter sadipscing elitr, sed diam Lorem Ipsum consetetur
+            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore Lorem ipsum dolor sit amet, conseter sadipscing
+            elitr, sed diam ipsum dolor sit amet, conseter sadipscing elitr, sed diam invidunt ut labore Lorem ipsum dolor sit
+            amet,
+            conseter sadipscing elitr, sed diam ipsum dolor sit amet, conseter conseter sit... <a class="c-loadmore" href="">View more</a>
+          </p>
+        </div>
+        <ul class="p-welcome__slide">
+          <li><img src="./assets/img/index/slide02.png" alt=""></li>
+        </ul>
+      </div>
+    </section>
+    <!-- ▲home-welcome ================================================== -->
+
+    <!-- ▼news================================================== -->
+    <section id="news">
+        <div class="p-news">
+            <div class="p-news__new">
+            <h2 class="c-title-01">news & events <a class="c-loadmore" href="">View more</a></h2>
+
+            <article class="c-article">
+                <figure class="c-article__img"><img src="./assets/img/index/img01.png" alt=""></figure>
+                <div class="c-article__info">
+                    <h3>Consetetur sadipscing nonumy elitr...<span>18.12.2013</span></h3>
+                    <p>Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore Consetetur sadipscing elitr, diam nonumy
+                    eirmod tempor invidunt ut labore...</p>
+                </div>
+            </article>
+
+            <article class="c-article c-article--notimg">
+                <div class="c-article__info">
+                    <h3>Consetetur sadipscing elitr Consetetur sadipscing elitr Consete...<span>18.12.2013</span></h3>
+                    <p>Consetetur sadipscing elitr, sed diam nonumy invidunt labore Consetetur Consetetur sadipscing elitr, sed diam nonumy invidunt labore Consetetur...</p>
+                </div>
+            </article>
+
+            <article class="c-article c-article--notimg">
+                <div class="c-article__info">
+                    <h3>Consetetur sadipscing elitr Consetetur sadipscing elitr Consete...<span>18.12.2013</span></h3>
+                    <p>Consetetur sadipscing elitr, sed diam nonumy invidunt labore Consetetur Consetetur sadipscing elitr, sed diam
+                        nonumy invidunt labore Consetetur...</p>
+                </div>
+            </article>
+
+            </div>
+            <div class="p-news__partner">
+                <h2 class="c-title-01">partners</h2>
+                <ul class="p-news__slide">
+                    <li><img src="./assets/img/index/subslide02.png" alt=""></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- ▲news ================================================== -->
+
+      </main><!-- /#main -->
+      <!-- ▲main ================================================== -->
+      
+      <!-- ▼footer ================================================== -->
+      <footer id="footer">
+          <div class="c-footer">
+              <div class="c-footer__contact">
+                  <h3 class="c-title-ft">Contact US</h3>
+                  <dl>
+                      <dt>Address:</dt>
+                      <dd>72/4 Truong Quoc Dung Street, Ward 10, Phu Nhuan District, Ho Chi Minh City, Vietnam</dd>
+                  </dl>
+                  <dl>
+                      <dt>Tel:</dt>
+                      <dd><a href="tel:+84 8 3997 5901">+84 8 3997 5901</a></dd>
+                  </dl>
+                  <dl>
+                      <dt>Fax:</dt>
+                      <dd>+84 8 3997 5900</dd>
+                  </dl>
+                  <dl>
+                      <dt>Email:</dt>
+                      <dd><a href="mailto:contact-us@sutrixmedia.com">contact-us@sutrixmedia.com</a></dd>
+                  </dl>
+              </div>
+              <div class="c-footer__nav">
+                  <h3 class="c-title-ft">Quick links</h3>
+                  <ul>
+                      <li><a href="">Contact Us</a></li>
+                      <li><a href="">Latest News</a></li>
+                      <li><a href="">FAQs</a></li>
+                      <li><a href="">Terms & Conditions</a></li>
+                      <li><a href="">Privacy Policy</a></li>
+                  </ul>
+              </div>
+              <div class="c-footer__email">
+                  <h2 class="c-title-01">newsletter</h2>
+                  <label for=""><input type="text" placeholder="Enter Email ..."></label>
+                  <button class="c-btn-email">Sign Up</button>
+              </div>
+          </div>
+      
+          <div class="c-copyright">
+              <nav class="c-gNav-ft">
+                  <ul>
+                      <li><a href="">Homepage</a></li>
+                      <li><a href="">About us</a></li>
+                      <li><a href="">Services</a></li>
+                      <li><a href="">News & Events</a></li>
+                      <li><a href="">Gallery</a></li>
+                      <li><a href="">Contact Us</a></li>
+                      <li><a href="">FAQs</a></li>
+                  </ul>
+              </nav>
+              <small>Copyright © 2014 Template Demo All Rights Reserved.</small>
+          </div>
+      </footer>
+      <!-- ▲footer ================================================== -->
+      <script src="./assets/js/slick/slick.js"></script>
+      <script src="./assets/js/functions.js"></script>
+    </div>
+
+</body>
+</html>
